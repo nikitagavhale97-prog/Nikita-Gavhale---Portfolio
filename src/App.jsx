@@ -3,6 +3,13 @@ import earthianImg from "./assets/earthian.png";
 import todoImg from "./assets/todo.png";
 import profileImg from "./assets/profile.png";
 import weatherImg from "./assets/weather.png";
+import resumePdf from "./assets/NikitaGavhale-Frontend-Developer.pdf";
+import {
+  FaDownload,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
 
 export default function PortfolioWebsite() {
   const projects = [
@@ -195,23 +202,91 @@ export default function PortfolioWebsite() {
                   <p className="text-white/70 mt-2">Years Experience</p>
                 </div>
 
-                <div
-                  className="
+                <a
+  href={resumePdf}
+  download
+  className="
+    bg-white/5
+    border
+    border-white/10
+    rounded-2xl
+    p-5
+    flex
+    items-center
+    justify-center
+    gap-3
+    hover:bg-white/10
+    hover:scale-105
+    transition
+    duration-300
+  "
+>
+  <h4 className="text-1xl font-bold text-white">
+    Download CV
+  </h4>
+
+  <FaDownload className="text-xl text-cyan-400" />
+</a>
+              </div>
+              <div className="flex items-center justify-center gap-5 mt-6 mb-4">
+  <a
+    href="https://github.com/nikitagavhale97-prog"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
       bg-white/5
       border
       border-white/10
-      rounded-2xl
-      p-5
-      text-center
+      p-4
+      rounded-full
+      hover:bg-white/10
+      hover:scale-110
+      transition
+      duration-300
     "
-                >
-                  <h4 className="text-3xl font-bold text-white">React</h4>
+  >
+    <FaGithub className="text-2xl text-white" />
+  </a>
 
-                  <p className="text-white/70 mt-2">Frontend</p>
-                </div>
-              </div>
+  <a
+    href="www.linkedin.com/in/nikita-gavhale-b7011217b"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      bg-white/5
+      border
+      border-white/10
+      p-4
+      rounded-full
+      hover:bg-white/10
+      hover:scale-110
+      transition
+      duration-300
+    "
+  >
+    <FaLinkedin className="text-2xl text-cyan-400" />
+  </a>
 
-              <div
+  <a
+    href="https://www.instagram.com/nikitagavhale97/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      bg-white/5
+      border
+      border-white/10
+      p-4
+      rounded-full
+      hover:bg-white/10
+      hover:scale-110
+      transition
+      duration-300
+    "
+  >
+    <FaInstagram className="text-2xl text-pink-400" />
+  </a>
+</div>
+       <div
                 className="
     bg-white/5
     border
