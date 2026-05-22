@@ -4,6 +4,7 @@ import todoImg from "./assets/todo.png";
 import profileImg from "./assets/profile.png";
 import weatherImg from "./assets/weather.png";
 import resumePdf from "./assets/NikitaGavhale-Frontend-Developer.pdf";
+import ChatBot from "./components/Chatbot";
 import {
   FaDownload,
   FaGithub,
@@ -112,7 +113,7 @@ export default function PortfolioWebsite() {
             </p> */}
 
             <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-              Building
+              Learning & Building
               <span className="block bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
                 Responsive Websites
               </span>
@@ -183,8 +184,26 @@ export default function PortfolioWebsite() {
               <div className="text-center">
                 <h3 className="text-3xl font-bold mb-2">Nikita Gavhale</h3>
 
-                <p className="text-white/70 mb-6">Frontend/UI Developer</p>
+                <p className="text-white/70 mb-2">Frontend/UI Developer</p>
               </div>
+              <div className="flex items-center justify-center mt-4">
+  <div className="
+    flex items-center gap-1
+    px-4 py-2
+    rounded-full
+    bg-emerald-500/10
+    border border-emerald-400/20
+    text-white
+    text-sm
+    font-medium
+    backdrop-blur-sm
+    mb-4
+  ">
+    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+
+    Open to Work
+  </div>
+</div>
 
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div
@@ -249,7 +268,7 @@ export default function PortfolioWebsite() {
   </a>
 
   <a
-    href="www.linkedin.com/in/nikita-gavhale-b7011217b"
+    href="https://www.linkedin.com/in/nikita-gavhale-b7011217b"
     target="_blank"
     rel="noopener noreferrer"
     className="
@@ -449,11 +468,13 @@ export default function PortfolioWebsite() {
           </div>
         </div>
       </section>
+      <ChatBot />
 
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 text-center text-white/60 text-sm">
         © 2026 Nikita Gavhale. All rights reserved.
       </footer>
     </div>
+    
   );
 }
