@@ -41,17 +41,17 @@ const experiences = [
       "Created draw.io diagrams for software architecture, workflows, and data flows.",
     ],
   },
-  {
-    id: 4,
-    role: "Production Supervisor",
-    company: "DSA Electro Controls Pvt Ltd",
-    period: "Sep 2020 – Aug 2021",
-    color: "#FBBF24",
-    highlights: [
-      "Supervised a team of 15 employees, managing attendance, task assignments, and production timelines.",
-      "Conducted quality analysis on finished products and coordinated with sales/purchasing teams for material availability.",
-    ],
-  },
+//   {
+//     id: 4,
+//     role: "Production Supervisor",
+//     company: "DSA Electro Controls Pvt Ltd",
+//     period: "Sep 2020 – Aug 2021",
+//     color: "#FBBF24",
+//     highlights: [
+//       "Supervised a team of 15 employees, managing attendance, task assignments, and production timelines.",
+//       "Conducted quality analysis on finished products and coordinated with sales/purchasing teams for material availability.",
+//     ],
+//   },
   {
     id: 5,
     role: "Web Developer",
