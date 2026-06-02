@@ -82,6 +82,7 @@ const portfolioData = {
       {
         name: "AI Portfolio Chatbot",
         tech: ["React JS", "Groq API", "LLM"],
+        url: "https://nikita-gavhale-portfolio.vercel.app/",
         description:
           "AI assistant integrated into portfolio for answering questions about Nikita.",
       },
