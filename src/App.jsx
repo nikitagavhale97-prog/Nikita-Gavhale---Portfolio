@@ -144,8 +144,8 @@ export default function PortfolioWebsite() {
       file_name: "Nikita_Gavhale_CV.pdf",
     });
   }}
-  className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-3 hover:bg-white/10 hover:scale-105 transition duration-300"
 >
+  Download CV
   <h4 className="text-1xl font-bold text-white">Download CV</h4>
   <FaDownload className="text-xl text-cyan-400" />
 </a>

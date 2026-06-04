@@ -6,8 +6,9 @@ import TagManager from 'react-gtm-module';
 
 window.dataLayer = window.dataLayer || [];
 
+
 TagManager.initialize({
-  gtmId: 'G-B2K5VB0X8X',
+  gtmId: "GTM-KKNZ7F56",
 });
 
 createRoot(document.getElementById('root')).render(
