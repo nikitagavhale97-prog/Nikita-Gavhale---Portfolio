@@ -145,7 +145,6 @@ export default function PortfolioWebsite() {
     });
   }}
 >
-  Download CV
   <h4 className="text-1xl font-bold text-white">Download CV</h4>
   <FaDownload className="text-xl text-cyan-400" />
 </a>
