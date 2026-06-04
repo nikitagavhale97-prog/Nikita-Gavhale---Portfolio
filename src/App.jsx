@@ -134,10 +134,21 @@ export default function PortfolioWebsite() {
                   <h4 className="text-3xl font-bold text-white">6+</h4>
                   <p className="text-white/70 mt-2">Years Experience</p>
                 </div>
-                <a href={resumePdf} download className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-3 hover:bg-white/10 hover:scale-105 transition duration-300">
-                  <h4 className="text-1xl font-bold text-white">Download CV</h4>
-                  <FaDownload className="text-xl text-cyan-400" />
-                </a>
+                <a
+  href={resumePdf}
+  download
+  onClick={() => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "resume_download",
+      file_name: "Nikita_Gavhale_CV.pdf",
+    });
+  }}
+  className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-3 hover:bg-white/10 hover:scale-105 transition duration-300"
+>
+  <h4 className="text-1xl font-bold text-white">Download CV</h4>
+  <FaDownload className="text-xl text-cyan-400" />
+</a>
               </div>
               <div className="flex items-center justify-center gap-5 mt-6 mb-4">
                 <a href="https://github.com/nikitagavhale97-prog" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/10 p-4 rounded-full hover:bg-white/10 hover:scale-110 transition duration-300">
