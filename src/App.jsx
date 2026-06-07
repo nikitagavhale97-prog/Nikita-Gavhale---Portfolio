@@ -1,8 +1,6 @@
 import skylineImg from "./assets/skyline.png";
 import earthianImg from "./assets/earthian.png";
-import todoImg from "./assets/todo.png";
 import profileImg from "./assets/profile.png";
-import weatherImg from "./assets/weather.png";
 import resumePdf from "./assets/NikitaGavhale-Frontend-Developer.pdf";
 import ChatBot from "./components/Chatbot";
 import WorkExperience from "./components/WorkExperience"; // ✅ imported here
@@ -33,24 +31,6 @@ export default function PortfolioWebsite() {
       demo: "https://earthianartfoundation.com/",
       image: earthianImg,
     },
-    // {
-    //   title: "Todo App",
-    //   description:
-    //     "A modern Todo App built using React, Vite, and Tailwind CSS with local storage support.",
-    //   tech: ["React", "Tailwind", "Vite"],
-    //   github: "https://github.com/nikitagavhale97-prog/Todo-App",
-    //   demo: "https://todo-app-new-tawny.vercel.app/",
-    //   image: todoImg,
-    // },
-    // {
-    //   title: "Weather App",
-    //   description:
-    //     "A modern weather application built with React and Tailwind CSS that fetches real-time weather data using OpenWeather API.",
-    //   tech: ["React", "Tailwind", "API", "Vite"],
-    //   github: "https://github.com/nikitagavhale97-prog/weather-app",
-    //   demo: "https://weather-app-kappa-rust-33.vercel.app/",
-    //   image: weatherImg,
-    // },
   ];
 
   const skills = [
@@ -96,7 +76,7 @@ export default function PortfolioWebsite() {
               </span>
             </h1>
             <p className="text-gray-200 text-lg leading-relaxed mb-10 max-w-xl">
-              Frontend/UI Developer with 6+ years of experience in building
+              Frontend/UI Developer with 5+ years of experience in building
               responsive and user-friendly web applications. Skilled in ReactJS,
               JavaScript, HTML5, CSS3, CMS development, and converting Figma
               designs into pixel-perfect interfaces. Experienced in Agile
@@ -131,7 +111,7 @@ export default function PortfolioWebsite() {
               </div>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center">
-                  <h4 className="text-3xl font-bold text-white">6+</h4>
+                  <h4 className="text-3xl font-bold text-white">5+</h4>
                   <p className="text-white/70 mt-2">Years Experience</p>
                 </div>
                 <a
